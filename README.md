@@ -24,7 +24,7 @@ After the action is completed, if the related bar value is below 5, it will incr
 Sounds for each animation (start, eating, cuddle) are added, and volume can be adjusted by using the integrated potentiometer. 
 
 ## Note (READ!)
-To use this project, you have to install Keil μVision v5 (any version should be fine) along with ARM compiler version 5 (MANDATORY!!), and open the "sample.uvprojx" file. This was fully developed on Keil. 
+To use this project, you have to install Keil μVision v5 (any version should be fine) along with ARM compiler version 5 (MANDATORY!!), and open the "sample.uvprojx" file. This was fully developed on Keil, with C libraries for the board. ASM was used only to increase stack and heap size. 
 
 
 ## Further notes
