@@ -9,5 +9,7 @@ The aim of the game is to take care of the character. If not feeded, or cuddled,
 This (final) version of the game uses the joystick and TouchPanel as input. The joystick left/right keys allow to make a choice between meal or snack (highlighted in red). The joystick select key starts the highlighted action. By touching the character on the TouchPanel, a cuddle animation is forced.
 After the action is completed, if the related bar value is below 5, it will increase its value.
 
+Sounds for each animation (start, eating, cuddle) are added, and volume can be adjusted by using the integrated potentiometer. 
+
 ## Note (READ!)
-This project was compiled on Keil v5 (any version should be fine) with ARM compiler version 5 (MANDATORY!)
+This project was compiled on Keil v5 (any version should be fine) with ARM compiler version 5 (MANDATORY!). Have fun!
