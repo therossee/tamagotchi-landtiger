@@ -24,11 +24,15 @@ After the action is completed, if the related bar value is below 5, it will incr
 Sounds for each animation (start, eating, cuddle) are added, and volume can be adjusted by using the integrated potentiometer. 
 
 ## Note (READ!)
-To use this project, you have to install Keil μVision v5 (any version should be fine) along with ARM compiler version 5 (MANDATORY!!), and open the "sample.uvprojx" file. This was fully developed on Keil, with C libraries for the board. ASM was used only to increase stack and heap size. 
+To use this project, you have to install Keil μVision v5 (any version should be fine) along with ARM compiler version 5 (MANDATORY!!), and open the ``` sample.uvprojx ``` file. This was fully developed on Keil, with C libraries for the board. ASM was used only to increase stack and heap size.
+
+You can clone the repository with the following command:
+
+``` git clone https://github.com/therossee/tamagotchi-landtiger.git ```
 
 
 ## Further notes
-I have added the complete specifications in extra_point folder, an application note (in Italian) about the implementation of the sounds in the game. 
+I have added the complete specifications in ``` extra_point ``` folder, an application note (in Italian) about the implementation of the sounds in the game. 
 In the main folder you will also find a video with the game in action on the actual board. 
 
 Have fun! :)
