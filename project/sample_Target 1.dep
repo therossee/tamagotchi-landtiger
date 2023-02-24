@@ -1,0 +1,207 @@
+Dependencies for Project 'sample', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_LPC17xx.s)(0x63C7BC6C)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\sample.c)(0x63C7BC6B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\sample.o --omf_browse .\sample.crf --depend .\sample.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (GLCD/GLCD.h)(0x63C7C9B3)
+I (RIT/RIT.h)(0x63C7BC6D)
+I (timer/timer.h)(0x63C7BC6D)
+I (tamagotchi.h)(0x63C7C28B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (joystick/joystick.h)(0x63C7BC6D)
+I (TouchPanel/TouchPanel.h)(0x63C7BC6D)
+I (adc/adc.h)(0x63C7C84A)
+I (music/music.h)(0x63C7BC6D)
+F (.\core_cm3.c)(0x63C7BC6B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+F (.\system_LPC17xx.c)(0x63C7BC6C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\timer\IRQ_timer.c)(0x63C7C940)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\irq_timer.o --omf_browse .\irq_timer.crf --depend .\irq_timer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (timer\timer.h)(0x63C7BC6D)
+I (timer\../GLCD/GLCD.h)(0x63C7C9B3)
+I (timer\../TouchPanel/TouchPanel.h)(0x63C7BC6D)
+I (timer\../tamagotchi.h)(0x63C7C28B)
+I (timer\../music/music.h)(0x63C7BC6D)
+I (timer\../adc/adc.h)(0x63C7C84A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602585E4)
+F (.\timer\lib_timer.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\lib_timer.o --omf_browse .\lib_timer.crf --depend .\lib_timer.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (timer\timer.h)(0x63C7BC6D)
+F (.\timer\timer.h)(0x63C7BC6D)()
+F (.\GLCD\AsciiLib.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\asciilib.o --omf_browse .\asciilib.crf --depend .\asciilib.d)
+I (GLCD\AsciiLib.h)(0x63C7BC6D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD\AsciiLib.h)(0x63C7BC6D)()
+F (.\GLCD\GLCD.c)(0x63C7C9B3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\glcd.o --omf_browse .\glcd.crf --depend .\glcd.d)
+I (GLCD\GLCD.h)(0x63C7C9B3)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (GLCD\AsciiLib.h)(0x63C7BC6D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (GLCD\frame0.c)(0x63C7BC6D)
+I (GLCD\frame1.c)(0x63C7BC6D)
+I (GLCD\frame2.c)(0x63C7BC6D)
+I (GLCD\star.c)(0x63C7BC6D)
+I (GLCD\mushroom.c)(0x63C7BC6D)
+I (GLCD\heart.c)(0x63C7BC6D)
+I (GLCD\volume_inactive.c)(0x63C7BC6D)
+I (GLCD\volume_low.c)(0x63C7BC6D)
+I (GLCD\volume_mid.c)(0x63C7BC6D)
+I (GLCD\volume_max.c)(0x63C7BC6D)
+F (.\GLCD\GLCD.h)(0x63C7C9B3)()
+F (.\GLCD\HzLib.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\hzlib.o --omf_browse .\hzlib.crf --depend .\hzlib.d)
+I (GLCD\HzLib.h)(0x63C7BC6D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD\HzLib.h)(0x63C7BC6D)()
+F (.\GLCD\frame0.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\frame0.o --omf_browse .\frame0.crf --depend .\frame0.d)
+F (.\GLCD\frame1.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\frame1.o --omf_browse .\frame1.crf --depend .\frame1.d)
+F (.\GLCD\mushroom.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\mushroom.o --omf_browse .\mushroom.crf --depend .\mushroom.d)
+F (.\GLCD\frame2.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\frame2.o --omf_browse .\frame2.crf --depend .\frame2.d)
+F (.\GLCD\star.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\star.o --omf_browse .\star.crf --depend .\star.d)
+F (.\GLCD\heart.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\heart.o --omf_browse .\heart.crf --depend .\heart.d)
+F (.\GLCD\volume_inactive.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\volume_inactive.o --omf_browse .\volume_inactive.crf --depend .\volume_inactive.d)
+F (.\GLCD\volume_low.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\volume_low.o --omf_browse .\volume_low.crf --depend .\volume_low.d)
+F (.\GLCD\volume_max.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\volume_max.o --omf_browse .\volume_max.crf --depend .\volume_max.d)
+F (.\GLCD\volume_mid.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\volume_mid.o --omf_browse .\volume_mid.crf --depend .\volume_mid.d)
+F (.\tamagotchi.c)(0x63C7C874)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\tamagotchi.o --omf_browse .\tamagotchi.crf --depend .\tamagotchi.d)
+I (tamagotchi.h)(0x63C7C28B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (GLCD/GLCD.h)(0x63C7C9B3)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (timer/timer.h)(0x63C7BC6D)
+I (RIT/RIT.h)(0x63C7BC6D)
+I (TouchPanel/TouchPanel.h)(0x63C7BC6D)
+I (adc/adc.h)(0x63C7C84A)
+I (music/music.h)(0x63C7BC6D)
+F (.\tamagotchi.h)(0x63C7C28B)()
+F (.\RIT\IRQ_RIT.c)(0x63C7C8CD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\irq_rit.o --omf_browse .\irq_rit.crf --depend .\irq_rit.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (RIT\RIT.h)(0x63C7BC6D)
+I (RIT\../tamagotchi.h)(0x63C7C28B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (RIT\../GLCD/GLCD.h)(0x63C7C9B3)
+I (RIT\../TouchPanel/TouchPanel.h)(0x63C7BC6D)
+I (RIT\../music/music.h)(0x63C7BC6D)
+I (RIT\../timer/timer.h)(0x63C7BC6D)
+I (RIT\../adc/adc.h)(0x63C7C84A)
+F (.\RIT\lib_RIT.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\lib_rit.o --omf_browse .\lib_rit.crf --depend .\lib_rit.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (RIT\RIT.h)(0x63C7BC6D)
+F (.\RIT\RIT.h)(0x63C7BC6D)()
+F (.\joystick\joystick.h)(0x63C7BC6D)()
+F (.\joystick\lib_joystick.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\lib_joystick.o --omf_browse .\lib_joystick.crf --depend .\lib_joystick.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (joystick\joystick.h)(0x63C7BC6D)
+F (.\TouchPanel\TouchPanel.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\touchpanel.o --omf_browse .\touchpanel.crf --depend .\touchpanel.d)
+I (TouchPanel\../GLCD/GLCD.h)(0x63C7C9B3)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (TouchPanel\../TouchPanel/TouchPanel.h)(0x63C7BC6D)
+F (.\TouchPanel\TouchPanel.h)(0x63C7BC6D)()
+F (.\adc\adc.h)(0x63C7C84A)()
+F (.\adc\IRQ_adc.c)(0x63C7C90E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\irq_adc.o --omf_browse .\irq_adc.crf --depend .\irq_adc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (adc\adc.h)(0x63C7C84A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (adc\../timer/timer.h)(0x63C7BC6D)
+I (adc\../GLCD/GLCD.h)(0x63C7C9B3)
+F (.\adc\lib_adc.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\lib_adc.o --omf_browse .\lib_adc.crf --depend .\lib_adc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (adc\adc.h)(0x63C7C84A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\music\music.c)(0x63C7BC6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\music.o --omf_browse .\music.crf --depend .\music.d)
+I (music\music.h)(0x63C7BC6D)
+I (music\../timer/timer.h)(0x63C7BC6D)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1DC4B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\music\music.h)(0x63C7BC6D)()
