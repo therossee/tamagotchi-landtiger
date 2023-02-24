@@ -14,7 +14,7 @@ The aim of the game is to take care of the character. If not feeded, or cuddled,
       <img width="200px" height="267px" src="pictures/meal_eating.png" </img> &nbsp &nbsp
       <img width="200px" height="267px" src="pictures/cuddles.png" </img> &nbsp &nbsp
       <img width="200px" height="267px" src="pictures/snack_eating.png" </img> &nbsp &nbsp
-    <img width="200px" height="267px" src="pictures/gameover.png" </img> &nbsp &nbsp
+      <img width="200px" height="267px" src="pictures/gameover.png" </img> &nbsp &nbsp
   </div>
 
 
