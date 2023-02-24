@@ -1,7 +1,7 @@
 # Landtiger LPC1768 - game inspired by Tamagotchi
 This project was assigned as extra points project for the course Architetture dei sistemi di elaborazione (02GOLOV) at Politecnico di Torino.
 
-The aim of the project was the implementation of a game similar to the popular Tamagotchi on a embedded platform. For this particular course, we used a LandTiger board, based on NXP LPC1768 microcontroller.
+The aim of the project was the implementation of a game similar to the popular Tamagotchi on a embedded platform. In this course, we used a LandTiger board, based on NXP LPC1768 microcontroller.
 
 <p align="center">
   <img src="pictures/gameinit.png" />
